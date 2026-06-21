@@ -5,7 +5,7 @@ target market). The app saves it, asks an LLM for a **structured market analysis
 displays the result, and keeps a per-user, searchable history of past analyses.
 
 Built with Next.js (App Router) + TypeScript, React, Firebase Auth + Firestore,
-Zod, and a server-side LLM call (Anthropic or OpenAI).
+Zod, and a server-side LLM call (Gemini, Anthropic, or OpenAI).
 
 > **Note on versions:** `create-next-app` resolved to **Next.js 16** (React 19).
 > Next 16 makes `params`/`headers` async, defaults to Turbopack, and renames
@@ -81,7 +81,7 @@ live from Firestore.
 
 - Node.js 20.9+ (developed on Node 25)
 - A free Firebase project
-- An API key for Anthropic **or** OpenAI
+- An API key for Gemini, Anthropic, **or** OpenAI
 
 ### 1. Install
 

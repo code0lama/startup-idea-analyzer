@@ -6,7 +6,7 @@ import { authenticate, resolveProvider, zodFieldIssues } from "@/lib/api/http";
 
 // firebase-admin requires the Node.js runtime (not Edge).
 export const runtime = "nodejs";
-
+export const dynamic = "force-dynamic";
 /**
  * POST /api/analyses — create an idea and generate its market analysis.
  * Auth: Firebase ID token (Bearer). All writes are server-side (Admin SDK).

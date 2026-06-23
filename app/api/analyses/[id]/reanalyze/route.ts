@@ -8,7 +8,7 @@ import { runAndPersistAnalysis } from "@/lib/analyses/run";
 import { authenticate, resolveProvider, zodFieldIssues } from "@/lib/api/http";
 
 export const runtime = "nodejs";
-
+export const dynamic = "force-dynamic";
 /**
  * POST /api/analyses/[id]/reanalyze — edit an existing idea's fields and re-run
  * the analysis. Ownership is enforced server-side before any write.
